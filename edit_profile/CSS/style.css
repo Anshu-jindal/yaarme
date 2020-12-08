@@ -1,0 +1,30 @@
+.heading {
+  display: none;
+}
+.progress-bar {
+  margin: 2em;
+}
+@media only screen and (max-width: 768px) {
+  .progress-bar {
+    display: none;
+  }
+}
+
+.profile-pic-div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  border: 1px solid gainsboro;
+  /* border-radius: 999px; */
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+#gender {
+  border: 2px solid gainsboro;
+  outline: none;
+  margin: 1em 0;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+}
