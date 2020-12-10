@@ -1584,15 +1584,28 @@
           ></path>
         </svg>
       </span>
-      <form class="input-wrap" autocomplete="off">
-        <span class="icon search-icon autocomplete"></span>
+      <form
+        id="header-form"
+        class="input-wrap blue-background-header"
+        autocomplete="off"
+        onclick="invisible()"
+      >
+        <span class="search-icon autocomplete"></span>
+        <span id="company-title" class="title white">YaarMe</span>
         <input
           type="search"
           placeholder="Search"
-          class="search-bar"
+          class="search-bar invisible"
           id="search_mob"
           name="s"
         />
+
+        <img
+          onclick="invisible()"
+          id="search-icon-img"
+          src="https://img.icons8.com/fluent-systems-filled/28/ffffff/search.png"
+        />
+
         <span class="icon qrcode-icon"></span>
       </form>
       <a href="https://yaarme.com/profile" class="icon profile-icon">
@@ -1712,6 +1725,7 @@
         </a>
       </ul>
     </div>
+    <script src="header.js"></script>
     <script src="./Feed _ YaarMe_files/main.js.download"></script>
   </body>
 </html>

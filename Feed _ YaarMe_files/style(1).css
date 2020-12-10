@@ -282,6 +282,31 @@
   right: 44.5%;
 }
 
+/* .search-icons8 {
+  z-index: 900;
+} */
+
+.invisible {
+  display: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.blue {
+  color: #196fb6;
+}
+
+.white {
+  color: white;
+}
+
+.blue-background-header {
+  background-color: #0073b1 !important;
+}
+
 @media (max-width: 1024px) {
   .notification-number {
     padding: 3px 7px;
