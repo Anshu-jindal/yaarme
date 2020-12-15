@@ -218,13 +218,15 @@ function moveTouch(e) {
 document.addEventListener("touchstart", myFunction);
 document.addEventListener("touchend", myFunction1);
 
-function myFunction() {
+function myFunction(e) {
+  console.log(e);
   document.querySelectorAll(".top-section").forEach(function (item) {
     item.classList.add("hide-visibility");
   });
 }
 
-function myFunction1() {
+function myFunction1(e) {
+  console.log(e);
   //   document.querySelector(".top-section").classList.remove("hide-visibility");
   document.querySelectorAll(".top-section").forEach(function (item) {
     item.classList.remove("hide-visibility");
