@@ -215,6 +215,13 @@ function moveTouch(e) {
   initialY = null;
 }
 
+document.addEventListener("touchstart", myFunction);
+document.addEventListener("touchend", myFunction1);
+
 function myFunction() {
-  console.log("Yo Man!");
+  document.querySelector(".top-section").classList.add("hide-visibility");
+}
+
+function myFunction1() {
+  document.querySelector(".top-section").classList.remove("hide-visibility");
 }
