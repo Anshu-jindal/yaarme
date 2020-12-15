@@ -227,6 +227,6 @@ function myFunction() {
 function myFunction1() {
   //   document.querySelector(".top-section").classList.remove("hide-visibility");
   document.querySelectorAll(".top-section").forEach(function (item) {
-    item.classList.add("hide-visibility");
+    item.classList.remove("hide-visibility");
   });
 }
