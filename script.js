@@ -219,9 +219,14 @@ document.addEventListener("touchstart", myFunction);
 document.addEventListener("touchend", myFunction1);
 
 function myFunction() {
-  document.querySelector(".top-section").classList.add("hide-visibility");
+  document.querySelectorAll(".top-section").forEach(function (item) {
+    item.classList.add("hide-visibility");
+  });
 }
 
 function myFunction1() {
-  document.querySelector(".top-section").classList.remove("hide-visibility");
+  //   document.querySelector(".top-section").classList.remove("hide-visibility");
+  document.querySelectorAll(".top-section").forEach(function (item) {
+    item.classList.add("hide-visibility");
+  });
 }
