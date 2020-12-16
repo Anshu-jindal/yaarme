@@ -214,16 +214,3 @@ function moveTouch(e) {
   initialX = null;
   initialY = null;
 }
-
-document.addEventListener("touchstart", myFunction);
-document.addEventListener("touchend", myFunction1);
-
-function myFunction(e) {
-  let a = e.target.parentElement.id;
-  document.querySelector(a).classList.add("hide-visibility");
-}
-
-function myFunction1(e) {
-  let a = e.target.parentElement.id;
-  document.querySelector(a).classList.remove("hide-visibility");
-}
